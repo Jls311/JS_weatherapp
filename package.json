@@ -1,0 +1,23 @@
+{
+  "name": "WEATHER_APP_FINAL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jls311/JS_weatherapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jls311/JS_weatherapp/issues"
+  },
+  "homepage": "https://github.com/Jls311/JS_weatherapp#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
