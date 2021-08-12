@@ -99,6 +99,7 @@
       }
   
       .humidity {
+        @include flexCenter;
         display: none;
         grid-row: 6 / span 1;
         grid-column: 1 / span 4;
@@ -114,6 +115,7 @@
       }
   
       .wind {
+        @include flexCenter;
         display: none;
         grid-row: 7 / span 1;
         grid-column: 1 / span 4;
