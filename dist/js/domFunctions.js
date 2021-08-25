@@ -121,13 +121,25 @@ const getWeatherClass = (icon) => {
     13: "snow",
     50: "fog"
   };
-  let weatherClass;
+   /*let weatherClass;
   if (weatherLookup[firstTwoChars]) {
     weatherClass = weatherLookup[firstTwoChars];
   } else if (lastChar === "d") {
     weatherClass = "clouds";
   } else {
     weatherClass = "night";
+  }
+  return weatherClass;
+};*/
+
+
+let weatherClass;
+  if (lastChar === "n") {
+    weatherClass = "night";
+  } else if (weatherLookup[firstTwoChars]) {
+    weatherClass = weatherLookup[firstTwoChars];
+  } else {
+    weatherClass = "clouds";
   }
   return weatherClass;
 };
