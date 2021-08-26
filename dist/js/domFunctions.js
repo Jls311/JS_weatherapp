@@ -290,7 +290,7 @@ const displayCurrentConditions = (currentConditionsArray) => {
 };
 
 const displaySixDayForecast = (weatherJson) => {
-  for (let i = 1; i <= 6; i++) {
+  for (let i = 1; i <= 7; i++) {
     const dfArray = createDailyForecastDivs(weatherJson.daily[i]);
     displayDailyForecast(dfArray);
   }
